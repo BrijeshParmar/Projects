@@ -1,0 +1,246 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Category.master.cs" Inherits="Category" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <title>Books Catagory</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--
+
+Template 2082 Pure Mix
+
+http://www.tooplate.com/view/2082-pure-mix
+
+-->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+
+	<!-- Site title
+   ================================================== -->
+	
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css_book/bootstrap.min.css" />
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css_book/animate.min.css" />
+
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css_book/font-awesome.min.css" />
+	<link rel="stylesheet" href="css_book/ionicons.min.css" />
+
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css_book/style.css" />
+
+	<!-- Google web font 
+   ================================================== -->	
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css' />
+
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand">
+                <!--<a href="index_book.html">Digital Library</a>-->
+                  <a href="Home.aspx">Digital Library</a>
+              </div>
+
+            </div>
+         </div>
+      </div>
+
+   </nav>
+</div>
+
+
+<!-- Header section
+================================================== -->
+<section id="header" class="header-one">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+          <div class="header-thumb">
+              <h1 class="wow fadeIn" data-wow-delay="1.6s">Books Catagory</h1>
+              <h3 class="wow fadeInUp" data-wow-delay="1.9s">Choose What to read</h3>
+          </div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+
+<!-- Portfolio section
+================================================== -->
+<section id="portfolio">
+   <div class="container">
+      <div class="row">
+
+         <div class="col-md-12 col-sm-12">
+            
+               <!-- iso section -->
+               <div class="iso-section wow fadeInUp" data-wow-delay="2.0s">
+
+                  <ul class="filter-wrapper clearfix">
+                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".graphic">Fiction Books</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".template">Non-Fiction Books</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Academic Books</a></li>
+                        <!--<li><a href="#" class="opc-main-bg" data-filter=".branding">Branding</a></li>-->
+                        </ul>
+
+                        <!-- iso box section -->
+                        <div class="iso-box-section wow fadeInUp" data-wow-delay="1s">
+                           <div class="iso-box-wrapper col4-iso-box">
+
+                              <div class="iso-box graphic col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images_book/Life_of_Pi_cover.jpg" class="img-responsive" alt="Portfolio" />
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="LifeOfPi.html"><i class="fa fa-link"></i></a>
+                                                <h2>Life Of Pi</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images_book/The_Secret.jpg" class="img-responsive" alt="Portfolio" />
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="The_Secret.html"><i class="fa fa-link"></i></a>
+                                                <h2>The Secret</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box graphic col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images_book/11.jpg" class="img-responsive" alt="Portfolio" />
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="harry.html"><i class="fa fa-link"></i></a>
+                                                <h2>Harry Potter</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images_book/12.jpg" class="img-responsive" alt="Portfolio"  />
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="Unbroken.html"><i class="fa fa-link"></i></a>
+                                                <h2> Unbroken </h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box photoshop col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images_book/Probability.jpg" class="img-responsive" alt="Portfolio" />
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="Probability.html"><i class="fa fa-link"></i></a>
+                                                <h2>Probability & Statistics</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box photoshop col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images_book/python.jpg" class="img-responsive" alt="Portfolio" />
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="python.html"><i class="fa fa-link"></i></a>
+                                                <h2>Python</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                            </div>
+                        </div>
+
+               </div>
+
+         </div>
+
+      </div>
+   </div>
+</section>
+
+<!-- Footer section
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2016 Your Company Name - Designed by Tooplate</p>
+				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-dribbble"></a></li>
+					<li><a href="#" class="fa fa-behance"></a></li>
+					<li><a href="#" class="fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Javascript 
+================================================== -->
+<script src="js_book/jquery.js"></script>
+<script src="js_book/bootstrap.min.js"></script>
+<script src="js_book/isotope.js"></script>
+<script src="js_book/imagesloaded.min.js"></script>
+<script src="js_book/wow.min.js"></script>
+<script src="js_book/custom.js"></script>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

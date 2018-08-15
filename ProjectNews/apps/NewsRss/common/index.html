@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    		<title>Project01</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+<body id="splashid">
+<div id="mainDiv" style="margin-top:150px;">
+	<center>
+		<img src="./images/splash.gif" width="288" height="288" class="valign-wrapper"/>
+	</center>
+</div>
+<script>
+$('document').ready(function(){
+	setTimeout(function(){
+	$('#splashid').empty();
+	$('#splashid').load("./new.html");
+	},2600);
+  });
+</script>
+</body>
+</html>

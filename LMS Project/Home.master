@@ -1,0 +1,275 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title> Digital Library </title>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8"/>
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <meta name="description" content="Your Description Here"/>
+    <meta name="keywords" content="bootstrap themes, portfolio, responsive theme"/>
+    <meta name="author" content="ThemeForces.Com"/>
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+  <body>
+      
+    <div id="tf-home">
+        <div class="overlay">
+            <div id="sticky-anchor"></div>
+            <nav id="tf-menu" class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand logo" href="Home.aspx">Awesomeness</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#tf-home">Home</a></li>
+                        <li><a href="#tf-service">Category</a></li>
+                        <li><a href="#tf-portfolio">Books</a></li>
+                        <li><a href="#tf-about">About</a></li>
+                        <!--<li><a href="#tf-contact">Feedback</a></li>-->
+                        <li><a href="#tf-login">Log In</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <div class="container">
+                <div class="content">
+                    <h1>Digital Library</h1>
+                    <h3>All your favorite books and authors in one spot</h3>
+                    <br/>
+                    <a href="#tf-portfolio" class="btn btn-primary my-btn">Books</a>
+                    <a href="#tf-contact" class="btn btn-primary my-btn2">Feedback</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-service">
+        <div class="container">
+
+            <div class="col-md-4">
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <i class="fa fa-book"></i>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Fiction Books</h4>
+                    <p>A work of fiction is created in the imagination of its author. The author invents the story and makes up the characters, the plot or storyline, the dialogue and sometimes even the setting. A fictional work does not claim to tell a true story.</p>
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <i class="fa fa-book"></i>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Non-Fiction Books</h4>
+                    <p>The branch of literature comprising works of narrative prose dealing with or offering opinions or conjectures upon facts and reality, including biography, history, and the essay (opposed to fiction and distinguished from poetry and drama ).</p>
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <i class="fa fa-book"></i>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Academic Books</h4>
+                    <p>It is a long-form publication, as opposed to a short-form publication like an article, and is the result of in-depth academic research, usually over a period of years, making an original contribution to a field of study.</p>
+                  </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="tf-portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h3>Books</h3>
+                <hr/>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="Category.aspx">
+                    <img src="img/11.jpg" class="img-responsive" />
+                    <h1><b><p> Harry Potter Book Series </p></b></h1>
+                        </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="Category.aspx">
+                    <img src="img/12.jpg" class="img-responsive" href="Category.aspx">
+                    <h1><b><p> Unbroken </p></b></h1>
+                        </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="Category.aspx">
+                    <img src="img/Books.jpg" class="img-responsive" href="Category.aspx">
+                    <h1><b><p> Academic </p></b></h1>
+                        </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="tf-about">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-6">
+                        <h3>ABOUT US</h3>
+                        <br/>
+                        <p>  </p>
+                        <p>  </p>
+                        <br/>
+                        <a href="#tf-contact" class="btn btn-primary my-btn dark">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-contact">
+        <div class="container">
+            <div class="section-title">
+                <h1>Feedback</h1>
+                <p> If you like this site and it's content then please inform us and stay happy!!!!!!! </p>
+                <p> If you don't like this site and it's content then help us to improve the site  </p>
+                <hr>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <form id="contact">
+                      <div class="form-group">
+                        <input type="text" name="username" class="form-control" id="txtname" placeholder="Enter Username" />
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="What do you like and what you dislike about the site"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary my-btn dark">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <div id="tf-login">
+        <div class="container">
+            <div class="section-title">
+                <center> <h1>Log in</h1> 
+                <p> If you are a member then use this site after you <b>LOG IN</b> </p>
+                <p> You are not a member?<b>SIGN UP</b> </p>
+                <hr/>
+                </center>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <form id="login" action="signup.aspx" >
+                      <!--<div class="form-group">
+                        <input type="text" name="username" class="form-control" id="txtuser" placeholder="Enter Username" />
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name="password" class="form-control" id="txtpass" placeholder="Enter Password" />
+                      </div>-->
+                      <center><button type="submit" class="btn btn-primary my-btn dark">Submit</button>
+                        <button type="submit" class="btn btn-primary my-btn dark">Sign up</button></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <nav id="tf-footer">
+        <div class="container">
+             <div class="pull-left">
+                <p>2017 © Awesomeness. All Rights Reserved. Designed and Coded by Brijesh Parmar & Abhishek Pandya</p>
+            </div>
+        </div>
+    </nav>
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
